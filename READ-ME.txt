@@ -1,0 +1,75 @@
+Zoo Explorer & Management System
+=====================
+
+This web application is designed to manage a zoo, including user and admin interfaces, ticket booking, event management, and more.
+
+Structure
+---------
+The application is divided into four main sections:
+
+1. Login/Register
+2. Main (User Interface)
+3. Dashboard (Admin Interface)
+
+Setup
+-----
+1. Install XAMPP or a similar PHP development environment.
+2. Clone this repository into your htdocs folder.
+3. Import the provided SQL file to set up the database.
+4. Configure the database connection in the PHP files if necessary.
+
+Usage
+-----
+1. Main (User Interface)
+   - Users start at main/index.php
+   - Users can view zoo information, book tickets, and check upcoming events
+   - Navigation:
+     * index.php: Home page
+     * service.html: View the services provided
+     * ticket.php: Book tickets
+     * event.php: View upcoming events
+     * animal.html: View animals
+     * contact.php: Contact information and feedback form
+     * login.php & register.php: To login and register account
+     * profile.php: User profile
+
+2. Login/Register
+   - Users can choose to log in or register from the main page's nav "Account"
+   - Navigate to login/login.php or login/register.php
+   - Admins can log in using admin credentials
+
+3. Profile
+   - After logging in, users can access their profile
+   - Navigate to profile/profile.php
+   - View and update personal information
+   - View purchased records, and feedback records
+
+4. Dashboard (Admin Interface)
+   - Admins are directed to dashboard/admin_dashboard.php after logging in
+   - Email: "admin@ecozoo.com", Password: "admin123"
+   - Manage various aspects of the zoo:
+     * manage_users.php: View and manage user accounts
+     * manage_tickets.php: Oversee ticket bookings
+     * manage_events.php: Add, edit, or remove events
+     * view_feedback.php: Read user feedback
+
+Security
+--------
+- User passwords are hashed before storing in the database
+- Admin access is restricted to authorized personnel only
+
+Support
+-------
+For any issues or questions, please contact [Fion on Teams]
+
+Template information
+--------------------- 
+  =>  Template Name    : Tea House - Tea Shop Website Template
+
+  =>  Template Link    : https://htmlcodex.com/tea-shop-website-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Codex
+
+  =>  Author Website   : https://htmlcodex.com
